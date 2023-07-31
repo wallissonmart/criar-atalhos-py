@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import Button
 import keyboard
 
-r = r'E:\Linguagens\Python\projetos\configurar_atalho_teclado\shortcuts.txt'
+r = r'/Users/wallissonmartins/Desktop/Linguagens/Python/projetos/configurar_atalho_teclado/shortcuts.txt'
 with open(r, mode='r', encoding='utf-8') as f:
     data = f.read()
 print(data)
